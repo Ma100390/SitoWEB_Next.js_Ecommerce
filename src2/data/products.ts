@@ -2,7 +2,7 @@
 import { Product } from "@/types/Product";
 
 export const products: Product[]  = [{
-    id: "abc123",
+    id: 1,
     title: "Air Force",
     subtitle: "Scarpe",
     price: 23,
@@ -13,7 +13,7 @@ export const products: Product[]  = [{
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
 },
 {
-    id: "abc456",
+    id:2,
     title: "Bic",
     subtitle: "Penna",
     price: 2,
@@ -24,7 +24,7 @@ export const products: Product[]  = [{
     description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
 },
 {
-    id: "abc789",
+    id:3,
     title: "Air up",
     subtitle: "Borraccia",
     price: 2,

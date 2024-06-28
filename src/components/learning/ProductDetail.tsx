@@ -4,14 +4,14 @@ import ComponentWithImage from "./ComponentWithImage";
 // Importa il tipo Product da "@/types/Product".
 import { Product } from "@/types/Product";
 
-// Definizione del tipo di props che il componente CardMainComponent accetta.
+// Definizione del tipo di props che il componente ProductDetail accetta.
 type Props = {
     product: Product; // Prop "product" di tipo Product.
 }
 
-// Definizione del componente CardMainComponent che riceve le props specificate.
-export default function CardMainComponent(props: Props) {
-    // Il componente restituisce due componenti figlio: ComponentWithImage e ComponentInfo.
+// Definizione del componente ProductDetail che riceve le props specificate.
+export default function ProductDetail(props: Props) {
+    // Il componente mostra i dettagli di un prodotto utilizzando ComponentInfo e ComponentWithImage.
 
     return (
         <>

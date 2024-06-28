@@ -5,6 +5,7 @@
     justify-content: space-around;
     background-color: white;
     /* flex-wrap: wrap; */
+    color:black;
 }
 
 .cardTitleSection {
@@ -19,10 +20,6 @@
 .cardDescription {
     color: #8c8c8f;
     padding-bottom: 2%;
-}
-
-.cardCounter span {
-    text-align: center;
 }
 
 .buttonSection {

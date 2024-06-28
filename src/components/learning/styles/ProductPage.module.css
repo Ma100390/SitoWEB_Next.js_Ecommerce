@@ -1,0 +1,12 @@
+.productPage {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .productImageSection {
+    width: 45%;
+} */
+
+.productInfoSection {
+    width: 45%;
+}
